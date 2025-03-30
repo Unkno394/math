@@ -1,0 +1,576 @@
+html,body {
+    box-sizing: border-box;
+    font-size: 16px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+.wew{
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        background-color: #E6F7E6;
+  }
+  .logo{
+position: absolute;
+width: 129px;
+height: 132px;
+left: 49px;
+top: 26px;
+
+background: url(image.png);
+border-radius: 106px;
+
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+  }
+
+.name{
+position: absolute;
+width: 818px;
+height: 78px;
+left: 239px;
+top: 53px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+color: #000000;
+}
+
+.math{
+
+
+position: absolute;
+
+width: 1283px;
+height: 2365px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 300px;
+position: relative; 
+background: url(image.png);
+border-radius: 105px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+}
+.xx{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+justify-content: center;
+  
+}
+/* Общие стили для всех кнопок */
+.nav-button {
+  position: absolute;
+  top: 240px;
+  height: 24px;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  transition: color 0.2s ease;
+}
+
+.nav-button:hover {
+  text-shadow: 0 0 10px rgba(233, 153, 255, 0.8);
+}
+
+/* Индивидуальное позиционирование каждой кнопки */
+.глав {
+  position: absolute;
+  top: 240px;
+  height: 24px;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  transition: color 0.2s ease;
+  left: 200px;
+  width: 106px;
+  color: #010028 ;
+}
+
+.por {
+  left: 350px;
+  width: 145px;
+  color: #010028;
+}
+
+.kop {
+    left: 535px;
+    width: 145px;
+    color: #010028;
+    position: absolute;
+    top: 240px;
+    height: 24px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    transition: color 0.2s ease;
+    width: 106px;
+
+  
+}
+
+.foto {
+  left: 865px;
+    width: 145px;
+    color: #010028;
+    position: absolute;
+    top: 240px;
+    height: 24px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    transition: color 0.2s ease;
+    width: 106px;
+    color: #571DB0;
+}
+
+.web {
+  left: 1100px;
+  width: 210px;
+  color: #010028;
+}
+.cub{
+
+
+position: absolute;
+width: 1010px;
+height: 2229px;
+align-items: center;
+top: 461px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 56px;
+
+}
+.wep{
+position: absolute;
+width: 466px;
+height: 44px;
+text-align: center;
+top: 517px;
+background-color: transparent;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+color: #FFFFFF;
+
+}
+.a{
+    /* 5 класс МАТЕМАТИКА */
+
+position: absolute;
+width: 433px;
+height: 44px;
+text-align: center;
+text-decoration: none;
+top: 622px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-decoration: none;
+color: #FFFFFF;
+}
+.b{
+    /* 6 класс МАТЕМАТИКА */
+
+position: absolute;
+width: 434px;
+height: 44px;
+text-align: center;
+text-decoration: none;
+top: 710px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .cub{
+   /* Rectangle 2 */
+
+position: absolute;
+width: 1010px;
+height: 2200px;
+align-items: center;
+top: 357px;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 56px;
+
+
+  }
+  .zpz{
+    /* МБОУ ГИМНАЗИЯ города Зернограда  2019-2020 учебный год */
+
+position: absolute;
+width: 752px;
+height: 88px;
+text-align: center;
+top: 413px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+color: #FFFFFF;
+  }
+  .slider-container {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: 600px;
+    background: none; /* Убираем фоновое изображение если не нужно */
+    box-shadow: none; /* Убираем тень если не нужна */
+    overflow: hidden;
+    border: none; /* Убираем границу если не нужна */
+    padding: 0;
+    margin: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+    gap: 0; /* Убираем промежутки между слайдами */
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+}
+
+.slide {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: none;
+    outline: none;
+    vertical-align: top; /* Убираем пространство под изображением */
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+}
+
+/* Остальные стили оставляем как есть */
+.controls {
+    position: absolute;
+    top: 3264px;
+    text-align: center;
+    margin-top: 20px;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+}
+
+.up {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 395px;
+    top: -2550px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+}
+
+.back {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -500px;
+    top: -2550px;
+    cursor: pointer;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+}
+.pyp{
+    /* МБОУ ООШ города Зернограда  2018-2019 учебный год */
+position: absolute;
+width: 632px;
+height: 88px;
+text-align: center;
+top: 1059px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+color: #FFFFFF;
+}
+.mulo{
+  text-align: center;
+  /* МОЙ 9 КЛАСС ПОЗДРАВЛЕНИЕ С ДНЕМ РОЖДЕНИЯ ВИДЕО: */
+
+position: absolute;
+width: 251px;
+height: 159px;
+
+top: 1200px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+color: #FFFFFF;
+}
+.ny{
+position: absolute;
+width: 575px;
+height: 418px;
+align-items: center;
+top: 1362px;
+
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+}
+.slider-container2 {
+  position: absolute;
+  width: 500px;
+    height: 600px;
+  align-items: center;
+  top: 1858px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 1; /* Показываем слайдер */
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+}
+
+.slider2 {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+  opacity: 1;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+}
+
+.slide2 {
+  width: 100%; /* Ширина 100% контейнера */
+  height: 100%;
+  object-fit: cover; /* Растягивает и сохраняет пропорции */
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+}
+
+.controls2 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  top: 3264px;
+  opacity: 1; /* Показываем кнопки */
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+}
+
+.up2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 825px;
+  top: -1150px;
+  cursor: pointer;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+}
+
+.back2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left:-825px;
+  top: -1150px;
+  cursor: pointer;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+
+}
+.foo{
+  position: absolute;
+  width: 100%;
+  height: 15%;
+top: 2900px;
+
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  background: #1E3A5F;
+  }
+  .cved{
+  align-items: center;
+  
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  }
+  .adress{
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 75px;
+      font-size: 32px;
+      opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  }
+  .username{
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 32px;
+      margin-top: 45px;
+      opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  }
+  .up, .back, .pyp, .mulo, .ny, .slider-container2, .up2, .back2 {
+    opacity: 0; /* Начальное состояние - невидимы */
+    transform: translateY(50px); /* Начальное положение */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Плавное изменение */
+}
+
+.up.animate, .back.animate, .pyp.animate, .mulo.animate, 
+.ny.animate, .slider-container2.animate, .up2.animate, .back2.animate {
+    opacity: 1; /* Видимы при появлении */
+    transform: translateY(0); /* Конечное положение */
+}
+
+
+
+

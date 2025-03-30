@@ -1,0 +1,362 @@
+html,body {
+    box-sizing: border-box;
+    font-size: 16px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+.wew{
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        background-color: #E6F7E6;
+  }
+  .logo{
+position: absolute;
+width: 129px;
+height: 132px;
+left: 49px;
+top: 26px;
+
+background: url(image.png);
+border-radius: 106px;
+
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.name{
+position: absolute;
+width: 818px;
+height: 78px;
+left: 239px;
+top: 53px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+color: #000000;
+}
+
+.math{
+width: 1283px;
+height: 1543px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 170px;
+position: relative; 
+background: url(image.png);
+border-radius: 105px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+}
+.xx{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+justify-content: center;
+  
+}
+/* Общие стили для всех кнопок */
+.nav-button {
+  position: absolute;
+  top: 240px;
+  height: 24px;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  transition: color 0.2s ease;
+}
+
+.nav-button:hover {
+  text-shadow: 0 0 10px rgba(233, 153, 255, 0.8);
+}
+
+/* Индивидуальное позиционирование каждой кнопки */
+.глав {
+  position: absolute;
+  top: 240px;
+  height: 24px;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0s;
+  transition: color 0.2s ease;
+  left: 200px;
+  width: 106px;
+  color: #010028 ;
+}
+
+.por {
+  left: 350px;
+  width: 145px;
+  color: #010028;
+}
+
+.kop {
+    left: 535px;
+    width: 145px;
+    color: #010028;
+    position: absolute;
+    top: 240px;
+    height: 24px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    transition: color 0.2s ease;
+    width: 106px;
+
+  
+}
+
+.foto {
+  left: 880px;
+  width: 183px;
+  color: #010028;
+}
+
+.web {
+  left: 1100px;
+  width: 210px;
+    position: absolute;
+    top: 240px;
+    height: 24px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    transition: color 0.2s ease;
+    width: 106px;
+    color: #571DB0;
+}
+.cub{
+position: absolute;
+width: 1010px;
+height: 1010px;
+align-items: center;
+top: 461px;
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 56px;
+
+}
+.wep{
+position: absolute;
+width: 466px;
+height: 44px;
+text-align: center;
+top: 517px;
+background-color: transparent;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+
+opacity: 0;
+transform: translateY(50px);
+animation: fadeInUp 1s forwards;
+animation-delay: 0s;
+color: #FFFFFF;
+}
+.asa{
+
+
+position: absolute;
+width: 466px;
+height: 44px;
+text-align: center;
+top: 517px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+
+
+color: #FFFFFF;
+
+
+}
+.a{
+
+position: absolute;
+width: 433px;
+height: 44px;
+text-align: center;
+top: 622px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-decoration: none;
+
+color: #FFFFFF;
+}
+.a:hover{
+    color: #926ec8;
+}
+/* Добавляем общие стили для анимируемых элементов */
+.b, .c, .d, .e, .f, .g {
+  position: absolute;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  
+  /* Начальное состояние перед анимацией */
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Состояние после появления */
+.b.animate, .c.animate, .d.animate, 
+.e.animate, .f.animate, .g.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ховер-эффекты */
+.b:hover, .c:hover, .d:hover, 
+.e:hover, .f:hover, .g:hover {
+  color: #926ec8;
+}
+
+/* Индивидуальные позиции */
+.b { width: 434px; top: 740px; }
+.c { width: 336px; top: 819px; }
+.d { width: 391px; top: 908px; }
+.e { width: 392px; top: 994px; }
+.f { width: 337px; top: 1125px; }
+.g { width: 391px; top: 1225px; }
+
+.b.animate, .c.animate, .d.animate, 
+.e.animate, .f.animate, .g.animate {
+  opacity: 1;
+  transform: translateY(0);}
+
+.foo{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top: 1847px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    background: #1E3A5F;
+    }
+    .cved{
+    align-items: center;
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    }
+    .adress{
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 75px;
+        font-size: 32px;
+        opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    }
+    .username{
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 32px;
+        margin-top: 45px;
+        opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0s;
+    }
+
+      
